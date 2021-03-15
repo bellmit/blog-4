@@ -1,0 +1,21 @@
+-------------------- Auto-Git Log --------------------
+		Sun Mar 14 2021 10:05:15 GMT+0800 (中国标准时间)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/autogit.json
+* .idea/.gitignore
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* blog.iml
+
+
+Deleted files:
+
+
+Renamed files:

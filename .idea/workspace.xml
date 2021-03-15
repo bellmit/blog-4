@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="106c788b-b035-4f16-9b94-ea5ab673039c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="106c788b-b035-4f16-9b94-ea5ab673039c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +49,7 @@
       <updated>1615687237959</updated>
       <workItem from="1615687239620" duration="478000" />
       <workItem from="1615702047300" duration="1614000" />
+      <workItem from="1615789736380" duration="264000" />
     </task>
     <task id="LOCAL-00001" summary="分布式锁 redis实现">
       <created>1615702371244</created>
@@ -78,10 +77,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615702915377" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615702385745">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615790100535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615702385745" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615790100535" />
     <state x="744" y="311" key="git4idea.merge.GitPullDialog" timestamp="1615687349763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

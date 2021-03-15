@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Mon Mar 15 2021 10:21:04 GMT+0800 (中国标准时间)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* assemble.md
+* event_deal.md
+* project_sum.md
+
+
+Deleted files:
+
+
+Renamed files:
