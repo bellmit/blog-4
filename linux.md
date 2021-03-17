@@ -1,0 +1,1 @@
+[知乎：39条常见的Linux系统简单面试题](https://zhuanlan.zhihu.com/p/32250942)
