@@ -1,0 +1,1 @@
+[简书：简析guava cache线程安全设计哲学](https://www.jianshu.com/p/699869cb5421)
