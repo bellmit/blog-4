@@ -41,7 +41,9 @@ note：
 
 ### 数据库限流实现
 Guava:
+
 [Guava的布隆过滤器](https://juejin.cn/post/6844903832577654797)
+
 [Guava的限流策略](https://mp.weixin.qq.com/s?__biz=Mzg2NjE5NDQyOA==&mid=2247483768&idx=1&sn=1df06849222072ac87d1410aef969125&source=41#wechat_redirect)
 
 保护高并发系统的三把利器：
@@ -67,7 +69,7 @@ Guava:
    1. key：限流的库类型，包括stockNumDbLimit，popNumDbLimit，partitionNumDbLimit
    2. value：用于限流的guava实例（不同的库限流用不同的guava，防止不同库的skuId重复）, GuavaCache<AtomicInteger>是我们对Cache<T,E>的一层封装。其实它的key是String skuId。
 3. 拿到某个Guava实例中的count。
-4. 如果count==null,`Object lock = getLock(skuId, limitDbType);`,确保同一限流库类型下的同一skuId获取相同的lock。拿到锁之后，初始化count：`new AtomicInteger(1)`,如果不为null，原子操作: `int countNum = count.incrementAndGet()`
+4. 如果count==null,`Object lock = getLock(skuId, limitDbType);`,确保同一限流库类型下的同一skuId获取相同的lock。拿到锁之后，double lock check，初始化count：`new AtomicInteger(1)`。如果不为null，原子操作: `int countNum = count.incrementAndGet()`
 6. 如果"限流开关"开启&&countNum>=limitNum, heartMonitor+return true;
 7. **两个设计巧妙的点是：** 
    1. 通过guava的失效时间后自动清理对象的机制（通过expireAfterWrite/Access）, 保证缓存中的原子整型对象不会一直存在且不会有增无减。失效时间和limitNum配合起来让其有类似窗口的概念，e.g. 80ms2次，失效后重新计数。
@@ -238,3 +240,5 @@ public class DbHotLimitServiceImpl implements DbHotLimitService {
 ```
 
 ### 最小包裹数
+### pipeline 和 dump
+### 大keyredis
