@@ -48,6 +48,14 @@ B端商家下单时，只定位仓，不扣减库存。若剩余产能数量足�
 2. 数据中间件： update时的DataModifyTemplate, queryCo时的DataQueryTemplate+DBTokenAccessRetryTemplate.
 3. 预占开发，PaaS,以及符合开闭原则。
 
+
+
+
+
+
+
+
+
 ### 扣减策略 以及发现的问题
 
 

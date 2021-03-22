@@ -1,0 +1,1 @@
+[简书：数据库 OLAP、OLTP的介绍和比较](https://www.jianshu.com/p/b1d7ca178691)
