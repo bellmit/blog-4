@@ -1,0 +1,1 @@
+[知乎：我以为我对Mysql事务很熟，直到我遇到了阿里面试官](https://zhuanlan.zhihu.com/p/148035779)
