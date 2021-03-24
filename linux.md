@@ -1,6 +1,7 @@
 [知乎：39条常见的Linux系统简单面试题](https://zhuanlan.zhihu.com/p/32250942)
 
 [菜鸟教程](https://www.runoob.com/w3cnote/linux-view-disk-space.html)
+
 #### vmstat r, b, si, so, bi, bo 这几列表示什么含义呢？
 
 答：
