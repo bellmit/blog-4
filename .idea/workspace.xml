@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="106c788b-b035-4f16-9b94-ea5ab673039c" name="Default Changelist" comment="">
+    <list default="true" id="106c788b-b035-4f16-9b94-ea5ab673039c" name="Default Changelist" comment="linux">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +52,7 @@
       <workItem from="1615687239620" duration="478000" />
       <workItem from="1615702047300" duration="1614000" />
       <workItem from="1615789736380" duration="499000" />
+      <workItem from="1616573830132" duration="2235000" />
     </task>
     <task id="LOCAL-00001" summary="分布式锁 redis实现">
       <created>1615702371244</created>
@@ -67,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615790122284</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="linux">
+      <created>1616574035206</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616574035206</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,21 +83,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="分布式锁 redis实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="分布式锁 redis实现" />
+    <MESSAGE value="linux" />
+    <option name="LAST_COMMIT_MESSAGE" value="linux" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="114" width="1362" height="812" key="CommitChangelistDialog2" timestamp="1616573907469">
+    <state x="558" y="114" width="1362" height="812" key="CommitChangelistDialog2" timestamp="1616574785403">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="114" width="1362" height="812" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1616573907469" />
+    <state x="558" y="114" width="1362" height="812" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1616574785403" />
     <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1615702915377">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615702915377" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615790149996">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1616574790887">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615790149996" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616574790887" />
     <state x="744" y="311" key="git4idea.merge.GitPullDialog" timestamp="1615687349763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
