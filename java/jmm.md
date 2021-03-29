@@ -27,4 +27,31 @@ An object's member variables are stored on the heap along with the object itself
 
 Static class variables are also stored on the heap along with the class definition.
 
-Objects on the heap can be accessed by all threads that have a reference to the object. When a thread has access to an object, it can also get access to that object's member variables. If two threads call a method on the same object at the same time, they will both have access to the object's member variables, but each thread will have its own copy of the local variables.
+Objects on the heap can be accessed by all threads that have a reference to the object. When a thread has access to an object, it can also get access to that object's member variables. **If two threads call a method on the same object at the same time, they will both have access to the object's member variables, but each thread will have its own copy of the local variables.**
+
+```java
+public class MyRunnable implements Runnable() {
+
+    public void run() {
+        methodOne();
+    }
+
+    public void methodOne() {
+        int localVariable1 = 45;
+
+        MySharedObject localVariable2 =
+            MySharedObject.sharedInstance;
+
+        //... do more with local variables.
+
+        methodTwo();
+    }
+
+    public void methodTwo() {
+        Integer localVariable1 = new Integer(99);
+
+        //... do more with local variable.
+    }
+}
+
+```
