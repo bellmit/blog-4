@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="106c788b-b035-4f16-9b94-ea5ab673039c" name="Default Changelist" comment="linux">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -9,8 +10,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1pjCiH8XGTT2qxzechMrTpqnapd" />
   <component name="ProjectLevelVcsManager">
@@ -26,6 +33,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -53,6 +61,7 @@
       <workItem from="1615702047300" duration="1614000" />
       <workItem from="1615789736380" duration="499000" />
       <workItem from="1616573830132" duration="2235000" />
+      <workItem from="1619062029815" duration="519000" />
     </task>
     <task id="LOCAL-00001" summary="分布式锁 redis实现">
       <created>1615702371244</created>
@@ -75,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616574035206</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="linux">
+      <created>1619062073813</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619062073813</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,26 +103,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="linux" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="114" width="1362" height="812" key="CommitChangelistDialog2" timestamp="1619062048457">
+    <state x="558" y="114" width="1362" height="812" key="CommitChangelistDialog2" timestamp="1619062570047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="114" width="1362" height="812" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1619062048457" />
-    <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1615702915377">
+    <state x="558" y="114" width="1362" height="812" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1619062570047" />
+    <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1619062292975">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615702915377" />
+    <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1619062292975" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1616574790887">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616574790887" />
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619062617977">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1619062617977" />
     <state x="744" y="311" key="git4idea.merge.GitPullDialog" timestamp="1615687349763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="744" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615687349763" />
-    <state x="334" y="215" key="new project wizard" timestamp="1615702918488">
+    <state x="334" y="215" key="new project wizard" timestamp="1619062218153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1615702918488" />
+    <state x="334" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1619062218153" />
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>
