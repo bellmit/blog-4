@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Thu Apr 01 2021 18:28:35 GMT+0800 (中国标准时间)
+------------------------------------------------------
+
+Modified files:
+* java/jmm.md
+* juc/volatile.md
+* multi_thread/8types.md
+* spring/thread_safe.md
+
+
+Created files:
+* hunt/intro.md
+* java/exam.md
+
+
+Deleted files:
+
+
+Renamed files:

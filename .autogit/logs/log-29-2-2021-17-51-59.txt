@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Mon Mar 29 2021 17:51:59 GMT+0800 (中国标准时间)
+------------------------------------------------------
+
+Modified files:
+* spring/thread_safe.md
+
+
+Created files:
+* java/jmm.md
+* juc/volatile.md
+
+
+Deleted files:
+
+
+Renamed files:
